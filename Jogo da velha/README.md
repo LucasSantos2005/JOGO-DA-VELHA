@@ -1,18 +1,21 @@
-## Getting Started
+# Jogo da Velha (Java Swing)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto implementa o clássico **Jogo da Velha** utilizando **Java** e a biblioteca **Swing** para interface gráfica.
 
-## Folder Structure
+## 🎮 Funcionalidades
+- Interface gráfica com botões representando o tabuleiro (3x3).
+- Alternância entre dois jogadores: **X** e **O**.
+- Verificação automática de vitória 
+- Mensagem de empate quando todas as casas forem preenchidas.
+- Destaque visual para o vencedor ou empate.
 
-The workspace contains two folders by default, where:
+## 📂 Estrutura do código
+- `jogodavelha.java`: contém toda a lógica do jogo e a criação da interface gráfica.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠 Tecnologias
+- **Java**
+- **Swing (javax.swing)**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 Como executar
+1. Depois de clonar o repositório, inicie o código com o Run e o app já irá aparecer na tela 😁
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
